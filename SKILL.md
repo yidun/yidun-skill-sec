@@ -1,6 +1,6 @@
 ---
 name: yidun-skill-sec
-version: 0.0.7
+version: 1.0.1
 description: Intelligent code security scanner with hybrid local-cloud detection. Fingerprints packages, runs static behavioral analysis, and consults cloud threat intelligence (enabled by default, can be disabled) for confidence scoring.
 homepage: https://clawhub.com
 metadata:
@@ -58,7 +58,7 @@ The following data is **never uploaded**:
 
 ## What It Does
 
-YidunClawSec fingerprints a code package, runs behavioral analysis locally, and consults cloud threat intelligence to produce a quantified safety score. It catches malware, data leaks, privilege abuse, and obfuscation — before anything gets installed.
+yidun-skill-sec fingerprints a code package, runs behavioral analysis locally, and consults cloud threat intelligence to produce a quantified safety score. It catches malware, data leaks, privilege abuse, and obfuscation — before anything gets installed.
 
 ## How It Works — Four Phases
 
@@ -80,7 +80,7 @@ YidunClawSec fingerprints a code package, runs behavioral analysis locally, and 
 
 ## Phase 0: Source Vetting
 
-Before downloading or scanning any code, YidunClawSec evaluates **where the package comes from**. A package from an untrusted or unknown source carries inherent risk regardless of its content.
+Before downloading or scanning any code, yidun-skill-sec evaluates **where the package comes from**. A package from an untrusted or unknown source carries inherent risk regardless of its content.
 
 ### 0.1 Source Tags
 
